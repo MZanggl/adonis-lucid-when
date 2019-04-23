@@ -1,0 +1,26 @@
+{
+  "name": "adonis-lucid-when",
+  "version": "1.0.0",
+  "description": "Implements Laravel's when method as a trait in AdonisJs",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "when",
+    "adonis",
+    "lucid",
+    "trait",
+    "orm"
+  ],
+  "author": "Michael Zanggl",
+  "license": "MIT",
+  "devDependencies": {
+    "@adonisjs/fold": "^4.0.9",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mysql": "^2.16.0"
+  },
+  "dependencies": {
+    "@adonisjs/lucid": "^6.1.3"
+  }
+}
