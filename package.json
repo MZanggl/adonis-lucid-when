@@ -1,6 +1,6 @@
 {
   "name": "adonis-lucid-when",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implements Laravel's when method as a trait in AdonisJs",
   "scripts": {
     "test": "mocha"
