@@ -98,5 +98,12 @@ describe('when', function () {
     
       assert.equal(getWhereCondition(query), "`test` = 0")
     })
+
+    it('does not ignore array or object with keys', () => {
+      const query = User.query()
+        .when(['1'], (query, value) => query.whereIn('test', value))
+    
+      assert.equal(getWhereCondition(query), "`test` in ('1')")
+    })
   })
 })

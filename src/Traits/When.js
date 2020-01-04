@@ -22,7 +22,7 @@ class When {
       return false
     }
 
-    if (typeof value === 'object' && Object.keys(value) < 1) {
+    if (typeof value === 'object' && Object.keys(value).length < 1) {
       return false
     }
     
